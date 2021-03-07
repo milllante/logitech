@@ -1,0 +1,834 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.heading {
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #2F3132;
+    margin-bottom: 0;
+}
+
+.text_margin {
+    margin-left: 34px;
+    margin-right: 32px;
+}
+
+.topnav__desctop {
+    display: none;
+}
+
+.logo {
+    display: block;
+    text-align: center;
+}
+
+.topnav {
+    padding-top: 25px;
+    overflow: hidden;
+}
+.topnav a.link {
+    display: none;
+    color: #C4C4C4;
+    text-align: center;
+    padding: 0 28px 32px 26px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 28px;
+    top: 25px;
+    width: 30px;
+    height: 16px;
+    background-image: url(img/menu-burger.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.topnav.responsive .icon {
+    background-image: url(img/Vector\ 8.svg);
+    width: 25px;
+    height: 25px;
+}
+  
+.active span{
+    border-bottom: 1px solid #FFFFFF;
+    font-style: normal;
+    color: #FFFFFF;
+}
+  
+.topnav.responsive {
+    position: relative;
+    background-color: #2F3132;
+    padding-bottom: 176px;
+}
+
+.topnav.responsive a:not(:last-child) {
+    display: block;
+}
+.header__logo_dark, .header__logo_white {
+    width: 130px;
+}
+.header__logo_white, .topnav.responsive a .header__logo_dark{
+    display: none;
+}
+ 
+.topnav.responsive a .header__logo_white {
+    display: inline-block;
+    padding-bottom: 148px;
+}
+
+.top {
+    background-color: #E0E1E2;
+    padding-bottom: 48px;
+}
+
+.header__logo_white {
+    display: none;
+}
+
+.top__text-margin {
+    margin-left: 59px;
+    margin-right: 59px;
+}
+
+.top__img {
+    margin-top: 94px;
+    margin-bottom: 67px;
+    height: 230px;
+    background-image: url(img/MX-Master\ 1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.top__arrow {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.svg__arrow {
+    text-align: center;
+    width: 42px;
+    height: 22px;
+}
+
+.bluetooth {
+    background-color: #EDEDED;
+    padding-top: 42px;
+    padding-bottom: 18px;
+}
+
+.bluetooth__icon {
+    margin-bottom: 27px;
+    text-align: center;
+}
+
+.bluetooth__heading {
+    margin-top: 31px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #C4C4C4;
+}
+
+.bluetooth_img {
+    height: 308px;
+    background-image: url(img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+}
+
+.info {
+    padding-top: 70px;
+    padding-bottom: 63px;
+}
+
+.info__content {
+    margin-top: 30px;
+    margin-bottom: 28px;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+
+.info__item {
+    border: 1px solid #2F3132;
+    flex-basis: 166px;
+    padding-left: 17px;
+    padding-right: 17px;
+    min-height: 94px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info__heading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #2F3132;
+}
+
+.info__text {
+    margin-left: 67px;
+    margin-right: 64px;
+}
+
+.info__item-heading {
+    margin-bottom: 5px;
+}
+.info__slider .carousel-indicators {
+    margin: 0;
+}
+.info__slider .carousel-indicators [data-bs-target] {
+    width: 34px;
+    height: 34px;
+    margin-right: 18px;
+    border-radius: 50%;
+    opacity: 1;
+}
+.info__slider .carousel-indicators [data-bs-target]:last-child {
+    margin-right: 0;
+}
+.indicator_wood {
+    background-image: url(img/slide1/indicator/wood-texture.png);
+}
+.indicator_glass {
+    background-image: url(img/slide1/indicator/wood-texture-1.png);
+}
+.indicator_linoleum {
+    background-image: url(img/slide1/indicator/linoleum-texture.png);
+}
+.indicator_cloth {
+    background-image: url(img/slide1/indicator/cloth-texture.png);
+}
+.indicator_marble {
+    background-image: url(img/slide1/indicator/marble-texture.png);
+}
+.info__slider .carousel-control-prev, .info__slider .carousel-control-next {
+    position: static;
+}
+
+.info__slider_heading {
+    padding-top: 27px;
+    padding-bottom: 18px;
+    margin: 0;
+}
+.slide.info__slider {
+    padding-bottom: 53px;
+}
+.info__slider_block {
+    padding-bottom: 17px;
+}
+.info__slider_img-desctop {
+    display: none;
+}
+
+.flow {
+    padding-top: 70px;
+    padding-bottom: 219px;
+    background-image: url(img/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1\ \(1\).png);
+    background-color: #EDEDED;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;        
+}
+
+.flow__ol {
+    margin-top: 36px;
+    margin-left: 54px;
+}
+
+.flow__li {
+    margin-bottom: 16px;
+    text-align: left;
+    width: 222px;
+}
+
+
+.settings {
+    padding-top: 70px;
+    background-color: #EDEDED;
+}
+
+.settings__content {
+    background-color: #C4C4C4;
+    padding: 23px 22px 26px 29px;
+}
+
+.settings__slider-img {
+    display: none;
+}
+
+.settings__slider {
+    margin: 35px 22px 60px 22px;
+    height: 440px;
+}
+
+.settings__slider .carousel-indicators {
+    margin-bottom: 0;
+}
+.settings__slider .carousel-indicators [data-bs-target] {
+    background-color: #C4C4C4;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    opacity: 1;
+    margin-left: 0;
+    margin-right: 15px;
+}
+.settings__slider .carousel-indicators [data-bs-target]:last-child {
+    margin-right: 0;
+}
+.settings__slider .carousel-indicators .active {
+    background-color: #2F3132;
+}
+
+
+.settings__icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.text_settings {
+    color: #ffffff;
+    margin-left: 5px;
+    margin-right: 11px;
+}
+.settings__slider .carousel-inner {
+    padding-left: calc(50% - 165px);
+    padding-right: calc(50% - 165px);
+}
+
+
+.mouse__text {
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.mouse__img_1 {
+    background-image: url(img/High_Resolution_JPG-MX\ Master\ Lifestyle\ 2602\ SpaceGrey\ for\ MAC\ 2.png);
+}
+
+.mouse__img_2 {
+    background-image: url(img/image\ 2.png);
+}
+.mouse__img {
+    min-height: 310px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.footer {
+    background-color: #2F3132;
+    height: 75px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7px;
+    line-height: 8px;
+    text-align: center;
+    color: #C7C8C8;
+    padding-top: 22px;
+}
+
+@media (min-width: 768px) {
+    .top {
+        padding-bottom: 80px;
+    }
+    .topnav {
+        padding-top: 54px;
+    }
+    .topnav a.link {
+        padding: 0 28px 32px 26px;
+        font-size: 40px;
+        line-height: 47px;
+    }
+    .topnav a.icon {
+        right: 58px;
+        top: 54px;
+        width: 61px;
+        height: 32px;
+    }
+    .topnav.responsive {
+        padding-top: 64px;
+    }
+    .topnav.responsive .icon {
+         width: 52px;
+        height: 52px;
+    }
+    .header__logo_dark, .header__logo_white {
+        width: 240px;
+    }
+    .topnav.responsive a .header__logo_white {
+        padding-bottom: 123px;
+    }
+    .topnav.responsive {
+        padding-bottom: 141px;
+    }
+    
+    .top__img {
+        margin-top: 159px;
+        height: 514px;
+        margin-bottom: 124px;
+    }
+    
+    .heading {
+        font-size: 40px;
+        line-height: 47px;
+        margin-bottom: 30px;
+    }
+    .text {
+        font-size: 24px;
+        line-height: 20px;
+    }
+    .text_margin {
+        margin-left: 77px;
+        margin-right: 77px;
+    }
+    .top__text-margin {
+        margin-left: 159px;
+        margin-right: 159px;
+    }
+    .top__arrow {
+        margin-top: 76px;
+    }
+    .svg__arrow {
+        width: 57px;
+        height: 29px;
+    }
+
+    .bluetooth {
+        padding-top: 80px;
+        padding-bottom: 3px;
+    }
+    .bluetooth__icon {
+        margin-bottom: 39px;
+    }
+    .bluetooth__heading {
+        font-size: 150px;
+        line-height: 176px;
+    }
+    .bluetooth_img {
+        height: 597px;
+        margin-left: 39px;
+        margin-right: 19px;
+    }
+    .info__content {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        gap: 30px;
+    }
+    .info__item-heading {
+        margin-bottom: 5px;
+    }
+    .info__item {
+        min-height: 170px;
+    }
+    .info__heading {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .info__slider_heading {
+        padding-top: 50px;
+        padding-bottom: 21px;
+    }
+    .carousel-control-prev svg, .carousel-control-next svg {
+        width: 16px;
+        height: 28px;
+    }
+    .info__slider .carousel-indicators [data-bs-target] {
+        width: 45px;
+        height: 45px;
+    }
+    .info__slider .carousel-indicators [data-bs-target] {
+        margin-right: 24px;
+    }
+
+
+
+    .flow {
+        padding-bottom: 498px;
+        padding-left: 64px;
+        padding-right: 65px;
+    }
+    .flow .text_margin {
+        margin: 0;
+    }
+    .flow__ol {
+        display: flex;
+        list-style-position: inside;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .flow__li {
+        padding: 8px 21px 28px 4px;
+        width: auto;
+        border-left: 1px solid #494949;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .flow__li:first-child {
+        border: none;
+        padding-left: 0;
+    }
+    .flow__li:last-child {
+        padding-right: 0;
+    }
+
+    .settings {
+        padding-left: 64px;
+        padding-right: 65px;
+        padding-bottom: 70px;
+    }
+    .settings__slider {
+        margin-top: 54px;
+        margin-bottom: 70px;
+        height: 663px;
+    }
+    .settings__slider .carousel-inner {
+        padding-left: calc(50% - 248.5px);
+        padding-right: calc(50% - 248.5px);
+    }
+    .settings__slider .carousel-indicators [data-bs-target] {
+        width: 25px;
+        height: 25px;
+        margin-right: 25px;
+    }
+    .settings .text_margin {
+        margin: 0;
+    }
+    .settings__icons {
+        margin-right: 104px;
+        margin-left: 94px;
+    }
+
+    .settings__img {
+        height: 35px;
+    }
+    .text_settings {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .mouse .text_margin {
+        padding-left: 67px;
+        padding-right: 65px;
+        margin-left: 0;
+        margin-right: 0;
+        padding-bottom: 50px;
+    }
+    .mouse .heading {
+        padding-left: 67px;
+        padding-right: 65px;
+    }
+    .mouse__img {
+        height: 549px;
+    }
+    .mouse__img_1 {
+        background-image: url(img/High_Resolution_JPG-MX\ Master\ Lifestyle\ 2602\ SpaceGrey\ for\ MAC\ 2\ \(1\).png);
+    }
+    .mouse__img_2 {
+        background-image: url(img/image\ 2\ \(1\).png);
+    }
+
+    .footer {
+        height: 150px;
+        padding-top: 47px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .top {
+        padding-bottom: 56px;
+    }
+    .topnav {
+        display: none;
+    }
+    .container_center {
+        padding-left: calc(50% - 580px);
+        padding-right: calc(50% - 580px);
+    }
+    .heading {
+        font-size: 36px;
+        line-height: 42px;
+        margin-bottom: 35px;
+    }
+    .text {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .header {
+        display: flex;
+        align-items: center;
+        background-color: #2F3132;
+        height: 100px;
+    }
+    .header__logo_dark {
+        display: none;
+    }
+    .header__logo_white {
+        display: block;
+        width: 150px;
+    }
+    .topnav__desctop {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-top: 0;
+        padding-bottom: 0;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .nav-ul {
+        display: flex;
+        flex-wrap: nowrap;
+        list-style: none;
+        overflow: hidden;
+    }
+    .nav-li {
+        padding-left: 21px;
+        padding-right: 21px;
+        border-right: 1px solid #494949;
+    }
+    .nav-li:last-child {
+        border: none;
+        padding-right: 0;
+    }
+    .nav-item:first-child {
+        padding-left: 0;
+    }
+    .nav-li .nav-link {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .nav-link.active {
+        border-bottom: 1px solid #FFFFFF;
+        color: #FFFFFF;
+    }
+
+    .top__img {
+        margin-top: -10px;
+        height: 671px;
+        padding-top: 80px;
+        margin-bottom: 8px;
+    }
+    .top__arrow {
+        margin-top: 49px;
+    }
+
+    .bluetooth {
+        padding-top: 45px;
+        padding-bottom: 48px;
+    }
+    .bluetooth__icon {
+        margin-bottom: 40px;
+    }
+    .bluetooth_img {
+        height: 427px;
+        background: url(img/High_Resolution_PNG-MX\ Master\ 3\ FRONT\ GRAPHITE\ 1.png) no-repeat 0 119px, url(img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1\ \(1\).png) no-repeat right 119px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .center_bluetooth {
+        padding-left: calc(50% - 622px);
+        padding-right: calc(50% - 622px);
+    }
+    .bluetooth__heading {
+        display: flex;
+        justify-content: center;
+    }
+    .bluetooth__heading-mini {
+        padding-top: 45px;
+        font-size: 96px;
+        line-height: 112px;
+    }
+    .bluetooth__heading_day {
+        font-size: 300px;
+        line-height: 352px;
+        padding-left: 72px;
+    }
+
+    .info {
+        padding-top: 70px;
+        padding-top: 70px;
+    }
+    .info__text {
+        width: 765px;
+        margin: auto;
+    }
+    .info__item {
+        min-height: 140px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .info__item-heading {
+        margin-bottom: 5px;
+    }
+    .info .text_margin {
+        width: 765px;
+        margin: auto;
+    }
+    .info__slider {
+        padding-left: calc(50% - 640px);
+        padding-right: calc(50% - 640px);
+    }
+    .info__slider_img-desctop {
+        display: block;
+    }
+    .info__slider_img-mob {
+        display: none;
+    } 
+    .info__slider_heading {
+        padding-top: 39px;
+        padding-bottom: 13px;
+    }
+
+    .flow {
+        padding-bottom: 654px;
+    }
+    .flow_center {
+        padding-left: calc(50% - 479px);
+        padding-right: calc(50% - 479px);
+    }
+    .flow__ol {
+        margin-left: 15px;
+    }
+    .settings {
+        padding-bottom: 71px;
+    }
+    .settings__slider {
+        display: none;
+    }
+    .settings .text_margin {
+        width: 958px;
+        margin: auto;
+    }
+    .settings__slider-img {
+        display: block;
+        text-align: center;
+        margin-top: 54px;
+    }
+    .settings__slider-img img {
+        max-width: 100%;
+    }
+    .settings__content {
+        width: 749px;
+        margin: auto;
+        margin-top: -54px;
+    }
+
+    .mouse {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .mouse_center {
+        padding-left: calc(50% - 640px);
+        padding-right: calc(50% - 640px);
+    }
+    .mouse__item {
+        display: inline-block;
+        min-height: 557px;
+        width: 50%;
+    }
+    .mouse__img_1 {
+        background-image: url(img/High_Resolution_JPG-MX\ Master\ Lifestyle\ 2602\ SpaceGrey\ for\ MAC\ 2\ \(2\).png);
+        order: 0;
+    }
+    .mouse__text_1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        order: 1;
+    }
+    .mouse__text_1 .heading, .mouse__text_1 .text {
+        width: 436px;
+        padding-left: 36px;
+        text-align: left;
+        padding-right: 0;
+    }
+    .mouse__text_2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        order: 2;
+    }
+    .mouse__text_2 .heading, .mouse__text_2 .text {
+        padding-left: 208px;
+        padding-right: 32px;
+        text-align: right;
+    }
+    .mouse__img_2 {
+        background-image: url(img/image\ 2\ \(3\).png);
+        order: 3;
+    }
+}
+
+@media (min-width: 1920px) {
+    .top {
+        padding-bottom: 80px;
+    }
+    .top__img {
+        margin-top: 20px;
+    }
+    .bluetooth {
+        padding-top: 80px;
+        padding-bottom: 70px;
+    }
+    .bluetooth__icon {
+        margin-bottom: 35px;
+    }
+    .info {
+        padding-top: 100px;
+        padding-top: 100px;
+    }
+    .flow {
+        padding-bottom: 870px;
+    }
+    .settings {
+        padding-bottom: 100px;
+    }
+    .settings__slider-img {
+        margin-top: 72px;
+    }
+    .settings__content {
+        margin-top: -56px;
+    }
+}
